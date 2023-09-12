@@ -28,3 +28,35 @@ const resta = function(num1, num2){
 const resultado = resta(12,2);
 console.log(resultado);
 
+//Funciones de flecha Arrow Functions 
+
+(param1, param2)=>{
+    //Code 
+    //return
+}
+
+const duplica = (num)=>{
+    return num*2;
+}
+
+const multiplica = (num1,num2)=>{
+    console.log('Multiplicacion de numeros')
+    return num1* num2;
+}
+
+const doble = duplica(16);
+console.log(doble);
+
+const returnM = multiplica(13,26);
+console.log(resultM)
+
+
+//Simplificado Arrow Funcitions
+let cambiaMinusculas = (word)=>{
+    return word.toLowerCase();
+}
+
+//Si solo es un unico parametro se puede omitir parentesis
+//Si la unica linea es el return se pueden omitir llaves
+
+cambiaMinusculas = word => word.toLowerCase();
