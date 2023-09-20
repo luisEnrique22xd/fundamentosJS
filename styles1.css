@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+}
+
+.container h1{
+    color: white;
+}
+#formulario h2{
+    color: white;
+}
+#formulario button{
+    color: white;
+}
+#formulario #inputTarea{
+    border-radius: 20px;
+    color: white;
+}
+#formulario #time{
+    color: white;
+}
+#tareas h2{
+    color: white;
+}
+#tareas ul{
+    color: white;
+}
